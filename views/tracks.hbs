@@ -1,0 +1,16 @@
+<div class="title">
+    <h1>Tracks</h1>
+</div>
+<div class='container'>
+    {{#each data.body.items}}
+    <div class='result-list'>
+        <div class='album-footer'>
+            {{name}}
+            <audio controls>
+            <source src={{preview_url}} type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <hr>
+    {{/each}}
+</div>

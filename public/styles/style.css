@@ -1,0 +1,41 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+    color: #5D5E60 !important;
+}
+.home-container{
+    text-align: center;
+	height: 100vh;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/spotify-background.jpeg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.title{
+    margin-top:10px;
+    margin-left: 10px;
+}
+h1, p{
+    font-family: 'Raleway', sans-serif !important;
+    color: #5D5E60 !important;
+}
+.artists{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    /* border-bottom: 1px solid #D7D6D6; */
+}
+
+img{
+    max-width: 10%;
+}
